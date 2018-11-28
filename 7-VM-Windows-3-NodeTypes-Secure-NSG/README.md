@@ -15,8 +15,8 @@ The main intent for this template is to show how to set up multinodetype cluster
 This template assumes that you already have certificates uploaded to your keyvault.  If you want to create a new certificate run the **New-ServiceFabricClusterCertificate.ps1** file in this sample.  That script will output the values necessary for deployment via the parameters file. 
 
 You can download the .PFX from the keyvault from the portal 
-- Got to the keyvalut resource
-- navigate to the secrets tab and download the .pfx
+- Go to the keyvault resource
+- Navigate to the secrets tab and download the .pfx
 
 ![DownloadCert]
 
